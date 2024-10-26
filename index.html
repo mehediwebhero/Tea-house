@@ -17,43 +17,103 @@
 
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
-<!-- header-area-start -->
-<header>
-    <section>
-        <div>
-            <div>
-<h1 class="text-5"></h1>
+<!-- main-container -->
+<main class="max-w-screen-xl mx-auto">
+    <!-- header-area-start -->
+    <header class="pt-10 mb-20">
+        <section class="header-container">
+            <div class="lg:flex px-6">
+                <!-- text-content -->
+                <div>
+                    <h1 class="text-4xl md:text-7xl font-extrabold">It's good <br> 
+                        tea time at The <br>
+                         Tea House
+                        </h1>
+                        <br>
+                    <p class="w-3/4 text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <br>
+                    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-4 rounded-lg text-white font-bold text-xl">Explore More <i class="fa fa-arrow-right -rotate-45"></i></button>
+                </div>
+                <!-- image-content -->
+                <div class="relative">
+                    <div>
+                        <img src="images/banner.png" alt="">
+                    </div>
+                    <!-- card -->
+                    <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:top-32">
+                        <!-- star-icon -->
+                        <div>
+                            <i class="fa fa-star text-[#FFC850] text-2xl"></i>
+                        </div>
+                        <!-- text -->
+                        <div>
+                            <h2 class="text-3xl lg:font-extrabold">5.00</h2>
+                            <p class="text-base font-semibold">Trust pilot Rating</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-
+        </section>
+    
+    </header>
+    <!-- header-area end -->
+    
+    <!-- main-area-start -->
+    <main>
+        <!-- product-area- -->
+         <section>
+            <!-- product-article -->
+            <div class="max-w-4xl mx-auto text-center px-5"> 
+                <h2 class="font-extrabold text-5xl">Our Featured Products</h2> <br>
+                <p class="text-base text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
-        </div>
-    </section>
 
-</header>
-<!-- header-area end -->
+            <!-- products-items -->
+            <div class=" my-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-6 px-5">
+                <!-- product-card -->
+                 <div class="drop-shadow-lg bg-gray-50 rounded-lg p-7 " >
+                    <img class="m-auto" src="images/tea-1.png" alt="">
+                    <h2 class="text-2xl font-extrabold py-3">Milk Tea</h2>
+                    <p class="text-base text-[#777777] px-20">Creamer could be replaced by fresh milk</p>
+                   </div>
+                 <div class="drop-shadow-lg bg-gray-50 rounded-lg p-7 " >
+                    <img class="m-auto" src="images/tea-2.png" alt="">
+                    <h2 class="text-2xl font-extrabold py-3">Milk Tea</h2>
+                    <p class="text-base text-[#777777] px-20">Creamer could be replaced by fresh milk</p>
+                   </div>
+                 <div class="drop-shadow-lg bg-gray-50 rounded-lg p-7 " >
+                    <img class="m-auto" src="images/tea-3.png" alt="">
+                    <h2 class="text-2xl font-extrabold py-3">Milk Tea</h2>
+                    <p class="text-base text-[#777777] px-20">Creamer could be replaced by fresh milk</p>
+                   </div>
+                 <div class="drop-shadow-lg bg-gray-50 rounded-lg p-7 " >
+                    <img class="m-auto" src="images/tea-4.png" alt="">
+                    <h2 class="text-2xl font-extrabold py-3">Milk Tea</h2>
+                    <p class="text-base text-[#777777] px-20">Creamer could be replaced by fresh milk</p>
+                   </div>
 
-<!-- main-area-start -->
-<main>
-
+                 </div>
+            </div>
+         </section>
+    </main>
+    <!-- main-area-end -->
+    
+    <!-- footer-area-start -->
+    <footer>
+    
+    </footer>
+    <!-- footer-area-end -->
 </main>
-<!-- main-area-end -->
-
-<!-- footer-area-start -->
-<footer>
-
-</footer>
-<!-- footer-area-end -->
 
 <body>
 
